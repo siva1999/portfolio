@@ -1,83 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Sivaprasad Puthumadathil — Experience & Education</title>
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <!-- Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
   <style>
-    /* Global */
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      background: #0d0d0d;
-      color: #e0e0e0;
+      background: #ffffff;
+      color: #212529;
       margin: 0;
     }
     a { text-decoration: none; }
-    .navbar { background: rgba(0,0,0,0.7) !important; backdrop-filter: blur(10px); }
-    .navbar-brand, .nav-link { color: #fff !important; }
-    .nav-link:hover { color: #00e5ff !important; }
+    .navbar {
+      background: #ffffff !important;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .navbar-brand, .nav-link {
+      color: #212529 !important;
+    }
+    .nav-link:hover {
+      color: #007bff !important;
+    }
 
-    /* Section titles */
     .section-title {
       font-size: 2.5rem;
       font-weight: 700;
-      background: linear-gradient(90deg, #d500f9, #00e5ff);
+      background: linear-gradient(90deg, #007bff, #00e5ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
-    /* Glassmorphic Card */
     .glass-card {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.8);
+      border: 1px solid rgba(0,0,0,0.05);
       border-radius: 1rem;
       backdrop-filter: blur(8px);
-      box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
       transition: transform 0.3s, box-shadow 0.3s;
     }
     .glass-card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 40px rgba(0,229,255,0.4);
+      box-shadow: 0 10px 30px rgba(0,123,255,0.2);
     }
     .glass-card .card-img-wrapper {
-      width: 80px; height: 80px;
+      width: 80px;
+      height: 80px;
       margin: -40px auto 0;
       border-radius: 50%;
       padding: 5px;
-      background: linear-gradient(90deg,#d500f9,#00e5ff);
+      background: linear-gradient(90deg, #007bff, #00e5ff);
     }
     .glass-card .card-img-wrapper img {
-      width: 100%; height: 100%; border-radius:50%; object-fit:cover;
-      border:2px solid #0d0d0d;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #ffffff;
     }
     .glass-card .card-body {
       padding-top: 2rem;
+      color: #212529;
     }
     .badge-futuristic {
-      background: linear-gradient(90deg,#00e5ff,#d500f9);
-      color: #000;
-      font-weight:600;
+      background: linear-gradient(90deg, #007bff, #00e5ff);
+      color: #fff;
+      font-weight: 600;
     }
 
-    /* Layout */
-    section { padding: 4rem 0; }
-    .card { border: none; }
-    .row-cols-md-2 { --bs-gutter-x: 2rem; --bs-gutter-y: 2rem; }
+    section {
+      padding: 4rem 0;
+    }
+    .row-cols-md-2 {
+      --bs-gutter-x: 2rem;
+      --bs-gutter-y: 2rem;
+    }
 
-    footer { background: #070707; color: #555; padding: 2rem 0; font-size:0.875rem; }
+    footer {
+      background: #f8f9fa;
+      color: #6c757d;
+      padding: 2rem 0;
+      font-size: 0.875rem;
+    }
   </style>
 </head>
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Sivaprasad Puthumadathil</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -97,15 +114,14 @@
   </nav>
 
   <!-- Experience Section -->
-  <section id="experience" class="bg-dark">
+  <section id="experience">
     <div class="container">
-      <div class="text-center text-white mb-5">
+      <div class="text-center mb-5">
         <h2 class="section-title">Experience</h2>
       </div>
       <div class="row row-cols-1 row-cols-md-2">
-        <!-- Job Card -->
         <div class="col d-flex">
-          <div class="glass-card card flex-fill p-3 text-center text-light">
+          <div class="glass-card card flex-fill p-3 text-center">
             <div class="card-img-wrapper">
               <img src="assets/company1-logo.png" alt="Company 1 Logo">
             </div>
@@ -117,7 +133,7 @@
           </div>
         </div>
         <div class="col d-flex">
-          <div class="glass-card card flex-fill p-3 text-center text-light">
+          <div class="glass-card card flex-fill p-3 text-center">
             <div class="card-img-wrapper">
               <img src="assets/company2-logo.png" alt="Company 2 Logo">
             </div>
@@ -133,15 +149,14 @@
   </section>
 
   <!-- Education Section -->
-  <section id="education">
+  <section id="education" class="bg-light">
     <div class="container">
       <div class="text-center mb-5">
         <h2 class="section-title">Education</h2>
       </div>
       <div class="row row-cols-1 row-cols-md-2">
-        <!-- Education Card -->
         <div class="col d-flex">
-          <div class="glass-card card flex-fill p-3 text-center text-light">
+          <div class="glass-card card flex-fill p-3 text-center">
             <div class="card-img-wrapper">
               <img src="assets/epita-logo.png" alt="EPITA Logo">
             </div>
@@ -153,9 +168,9 @@
           </div>
         </div>
         <div class="col d-flex">
-          <div class="glass-card card flex-fill p-3 text-center text-light">
+          <div class="glass-card card flex-fill p-3 text-center">
             <div class="card-img-wrapper">
-              <img src="assets/apj-logo.png" alt="APJ Abdul Kalam Technological University Logo">
+              <img src="assets/apj-logo.png" alt="APJ Abdul Kalam TU Logo">
             </div>
             <div class="card-body">
               <h5 class="card-title">APJ Abdul Kalam TU</h5>
