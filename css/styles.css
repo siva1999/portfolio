@@ -11580,16 +11580,16 @@ html {
 
 .profile {
   position: relative;
-  height: 70vw;
-  width: 70vw;
+  height: 50vw;
+  width: 50vw;
   border-radius: 5vw;
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 30vw;
-  max-height: 40rem;
+  height: 20vw;
+  max-height: 30rem;
   position: absolute;
   bottom: 0;
   left: 50%;
