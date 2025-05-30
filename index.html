@@ -13,51 +13,51 @@
   <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
   <style>
-    /* Base */
+    /* Base styles */
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      background-color: #f5f3ed; /* Ivory/beige classical tone */
-      color: #3b3a36;
+      background-color: #001f3f; /* Midnight Blue */
+      color: #f5f5f5;
       margin: 0;
     }
     a { text-decoration: none; }
 
     /* Navbar */
     .navbar {
-      background-color: #fffaf0; /* Floral white */
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background-color: #001a33;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
     }
     .navbar-brand, .nav-link {
-      color: #3b3a36 !important;
+      color: #f5f5f5 !important;
     }
     .nav-link:hover {
-      color: #8b5e3c !important; /* Warm brown accent */
+      color: #FFD700 !important; /* Gold */
     }
 
-    /* Section Titles */
+    /* Section titles */
     .section-title {
       font-size: 2.5rem;
       font-weight: 700;
-      background: linear-gradient(90deg, #8b5e3c, #c49a6c);
+      background: linear-gradient(90deg,#FFD700,#DAA520);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
-    /* Glass Cards */
+    /* Glassmorphic cards */
     .glass-card {
-      background: rgba(255,250,240,0.9); /* Ivory translucent */
-      border: 1px solid rgba(0,0,0,0.05);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,215,0,0.3);
       border-radius: 1rem;
       backdrop-filter: blur(6px);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
       transition: transform 0.3s, box-shadow 0.3s;
     }
     .glass-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 30px rgba(139,94,60,0.2);
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(255,215,0,0.4);
     }
 
-    /* Hero Section */
+    /* Hero section */
     .hero-card {
       padding: 3rem;
       position: relative;
@@ -69,8 +69,8 @@
       margin: 0 auto 1.5rem;
       border-radius: 50%;
       overflow: hidden;
-      border: 5px solid #fffaf0;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border: 5px solid rgba(255,215,0,0.7);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
     .profile-img-wrapper img {
       width: 100%; height: 100%; object-fit: cover;
@@ -79,14 +79,23 @@
     /* Buttons */
     .btn-futuristic {
       border: 2px solid transparent;
-      background: linear-gradient(90deg, #8b5e3c, #c49a6c) padding-box;
-      color: #fff;
+      background: linear-gradient(90deg,#FFD700,#DAA520) border-box;
+      color: #001f3f;
       font-weight: 600;
       transition: background 0.3s, transform 0.3s;
     }
     .btn-futuristic:hover {
-      background-color: #8b5e3c;
+      background-color: #DAA520;
       transform: translateY(-2px);
+      color: #fff;
+    }
+    .btn-outline-gold {
+      border-color: #FFD700;
+      color: #FFD700;
+    }
+    .btn-outline-gold:hover {
+      background-color: rgba(255,215,0,0.2);
+      color: #001f3f;
     }
 
     /* Sections */
@@ -98,8 +107,8 @@
 
     /* Footer */
     footer {
-      background-color: #fffaf0;
-      color: #6c757d;
+      background-color: #001a33;
+      color: #bbb;
       padding: 2rem 0;
       font-size: 0.875rem;
     }
@@ -107,7 +116,7 @@
 </head>
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Sivaprasad Puthumadathil</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -133,29 +142,29 @@
         <div class="profile-img-wrapper">
           <img src="assets/profile.jpg" alt="Profile Photo">
         </div>
-        <div class="badge text-white mb-3" style="background:linear-gradient(90deg,#8b5e3c,#c49a6c);padding:0.5rem 1rem;border-radius:1rem;">
+        <div class="badge text-white mb-3" style="background:linear-gradient(90deg,#FFD700,#DAA520);padding:0.5rem 1rem;border-radius:1rem;">
           COLLECT · ANALYZE · OPTIMIZE
         </div>
         <h1 class="section-title mb-3">AI & Data Engineer</h1>
         <p class="lead fw-light mb-4">Building scalable AI and data solutions to transform insights into impact.</p>
         <div class="d-flex justify-content-center gap-3">
           <a href="resume.html" class="btn btn-futuristic btn-lg px-5 py-3">About Me</a>
-          <a href="projects.html" class="btn btn-outline-secondary btn-lg px-5 py-3">Projects</a>
+          <a href="projects.html" class="btn btn-outline-gold btn-lg px-5 py-3">Projects</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- About Section -->
-  <section class="bg-light" style="background-color:#fffaf0;">
+  <section>
     <div class="container">
       <div class="glass-card p-5 about-card text-center">
         <h2 class="section-title mb-4">About Me</h2>
         <p class="lead mb-4">I’m Sivaprasad Puthumadathil, an AI & Data Engineer specializing in end-to-end pipelines and ML systems.</p>
         <p class="text-muted mb-4">With 3+ years in the field, I’ve built production-grade ETL workflows, cloud-native ML models, and data warehouses that drive business growth. Currently pursuing my MSc at EPITA, I blend research-backed methods with hands-on engineering to deliver robust, scalable solutions.</p>
         <div class="d-flex justify-content-center fs-2 gap-4">
-          <a href="https://linkedin.com/in/sivaprasad-pr-028b63170" class="text-decoration-none" style="color:#8b5e3c;"><i class="bi bi-linkedin"></i></a>
-          <a href="https://github.com/siva1999" class="text-decoration-none" style="color:#8b5e3c;"><i class="bi bi-github"></i></a>
+          <a href="https://linkedin.com/in/sivaprasad-pr-028b63170" class="text-decoration-none" style="color:#FFD700;"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/siva1999" class="text-decoration-none" style="color:#FFD700;"><i class="bi bi-github"></i></a>
         </div>
       </div>
     </div>
