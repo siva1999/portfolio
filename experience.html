@@ -124,26 +124,29 @@
         <h2 class="section-title">Experience</h2>
       </div>
       <div class="row row-cols-1 row-cols-md-2">
+        <!-- Experience 1 -->
         <div class="col d-flex">
-          <div class="glass-card card flex-fill p-3 text-center">
+          <div class="glass-card card flex-fill p-3 text-center exp-card" data-bs-toggle="modal" data-bs-target="#modalReev">
             <div class="card-img-wrapper">
-              <img src="assets/reev.jpg" alt="Company 1 Logo">
+              <img src="assets/reev.jpg" alt="REEV CARE Logo">
             </div>
             <div class="card-body">
               <h5 class="card-title">AI and DATA Engineering Intern</h5>
-              <p class="card-text">REEV CARE <br><small>Toulouse, France | Feb 2025 - Present</small></p>
+              <p class="card-text">REEV CARE<br><small>Toulouse, France | Feb 2025 - Present</small></p>
               <span class="badge badge-futuristic">Python · Machine Learning · Data Engineering · Edge Computing · AWS</span>
             </div>
           </div>
         </div>
+
+        <!-- Experience 2 -->
         <div class="col d-flex">
-          <div class="glass-card card flex-fill p-3 text-center">
+          <div class="glass-card card flex-fill p-3 text-center exp-card" data-bs-toggle="modal" data-bs-target="#modalTCS">
             <div class="card-img-wrapper">
-              <img src="assets/tcs.avif" alt="Company 2 Logo">
+              <img src="assets/tcs.avif" alt="TCS Logo">
             </div>
             <div class="card-body">
-              <h5 class="card-title">Systems Engineer (Data) </h5>
-              <p class="card-text"> Tata Consultancy Services (TCS) <br><small>Kochi, India | Jan 2021 - July 2023</small></p>
+              <h5 class="card-title">Systems Engineer (Data)</h5>
+              <p class="card-text">Tata Consultancy Services (TCS)<br><small>Kochi, India | Jan 2021 - July 2023</small></p>
               <span class="badge badge-futuristic">Python · Java · Software Development · Dashboards · SQL · Docker · CI/CD · UNIX · Git</span>
             </div>
           </div>
@@ -186,6 +189,56 @@
       </div>
     </div>
   </section>
+
+  <!-- Experience Detail Modals -->
+  <div class="modal fade" id="modalReev" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content glass-card p-4">
+        <div class="modal-header border-0">
+          <h5 class="modal-title">AI and DATA Engineering Intern – REEV CARE</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-start">
+          <ul>
+            <li>Working at AI-based healthcare startup focused on time series data</li>
+            <li>Model deployment and testing in edge hardware to detect GAIT movements</li>
+            <li>Preprocessing and transformation of large-scale time series datasets using Python</li>
+            <li>Designed, developed, and optimized Deep Learning models to enhance performance and efficiency</li>
+            <li>Implementation of various data augmentation and Feature techniques to improve model robustness and performance</li>
+            <li>Built end-to-end data pipelines from preprocessing to model training and inference</li>
+            <li>Data acquisition from embedded device and labelling it using Label studio  </li>
+            <li>AWS : Deployed full pipeline on AWS using S3, SageMaker, Lambda, and related services</li>
+            <li>R&D : CNN based feature extraction using spectrograms </li>
+            <li>R&D : Reviewed and implemented methods from research papers to enhance model performance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalTCS" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content glass-card p-4">
+        <div class="modal-header border-0">
+          <h5 class="modal-title">Systems Engineer (Data) – TCS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-start">
+          <ul>
+            <li>Designed and implemented end-to-end Data pipelines, including data ingestion, feature engineering, model training,
+              and deployment using Python</li>
+            <li>Software Development : Designed and implemented full-stack software solutions using Python, SQL and Java</li>
+            <li>Utilized SQL for database management, efficiently handling data storage, retrieval, and manipulation</li>
+            <li>Used Git for version control, Docker for deployment, and CI/CD to monitor logs and ensure code quality</li>\
+            <li>Monitored production models for performance drift and anomalies</li>
+            <li>Operated within an Agile framework, contributing to iterative development and adaptive planning</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Footer -->
   <footer>
