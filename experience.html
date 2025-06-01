@@ -15,49 +15,51 @@
   <style>
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      background: #ffffff;
-      color: #212529;
+      background-color: #f5f3ed; /* Ivory/beige classical tone */
+      color: #3b3a36;
       margin: 0;
     }
     a { text-decoration: none; }
+  
     .navbar {
-      background: #ffffff !important;
+      background-color: #fffaf0 !important; /* Floral white */
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     .navbar-brand, .nav-link {
-      color: #212529 !important;
+      color: #3b3a36 !important;
     }
     .nav-link:hover {
-      color: #007bff !important;
+      color: #8b5e3c !important; /* Warm brown accent */
     }
-
+  
     .section-title {
       font-size: 2.5rem;
       font-weight: 700;
-      background: linear-gradient(90deg, #007bff, #00e5ff);
+      background: linear-gradient(90deg, #8b5e3c, #c49a6c);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-
+  
     .glass-card {
-      background: rgba(255,255,255,0.8);
+      background: rgba(255,250,240,0.9); /* Ivory translucent */
       border: 1px solid rgba(0,0,0,0.05);
       border-radius: 1rem;
-      backdrop-filter: blur(8px);
+      backdrop-filter: blur(6px);
       box-shadow: 0 4px 20px rgba(0,0,0,0.05);
       transition: transform 0.3s, box-shadow 0.3s;
     }
     .glass-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 30px rgba(0,123,255,0.2);
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(139,94,60,0.2); /* brown accent */
     }
+  
     .glass-card .card-img-wrapper {
       width: 80px;
       height: 80px;
       margin: -40px auto 0;
       border-radius: 50%;
       padding: 5px;
-      background: linear-gradient(90deg, #007bff, #00e5ff);
+      background: linear-gradient(90deg, #8b5e3c, #c49a6c);
     }
     .glass-card .card-img-wrapper img {
       width: 100%;
@@ -68,14 +70,15 @@
     }
     .glass-card .card-body {
       padding-top: 2rem;
-      color: #212529;
+      color: #3b3a36;
     }
+  
     .badge-futuristic {
-      background: linear-gradient(90deg, #007bff, #00e5ff);
+      background: linear-gradient(90deg, #8b5e3c, #c49a6c);
       color: #fff;
       font-weight: 600;
     }
-
+  
     section {
       padding: 4rem 0;
     }
@@ -83,14 +86,15 @@
       --bs-gutter-x: 2rem;
       --bs-gutter-y: 2rem;
     }
-
+  
     footer {
-      background: #f8f9fa;
+      background-color: #fffaf0;
       color: #6c757d;
       padding: 2rem 0;
       font-size: 0.875rem;
     }
   </style>
+  
 </head>
 <body>
   <!-- Navigation -->
@@ -139,7 +143,7 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">Systems Engineer (Data) </h5>
-              <p class="card-text">@ Company 2<br><small>Kochi, India | Jan 2021 - July 2023</small></p>
+              <p class="card-text"> Tata Consultancy Services (TCS) <br><small>Kochi, India | Jan 2021 - July 2023</small></p>
               <span class="badge badge-futuristic">Python · Java · Software Development · Dashboards · SQL · Docker · CI/CD · UNIX · Git</span>
             </div>
           </div>
@@ -158,19 +162,19 @@
         <div class="col d-flex">
           <div class="glass-card card flex-fill p-3 text-center">
             <div class="card-img-wrapper">
-              <img src="assets/epita.png" alt="EPITA Logo">
+              <img src="assets/epita.jpg" alt="EPITA Logo">
             </div>
             <div class="card-body">
               <h5 class="card-title">EPITA</h5>
               <p class="card-text">Paris, France<br><small>2023 - 2025</small></p>
-              <span class="badge badge-futuristic">MSc Artificial Intelligent Systems</span>
+              <span class="badge badge-futuristic">MSc Artificial Intelligent Systems (M2)</span>
             </div>
           </div>
         </div>
         <div class="col d-flex">
           <div class="glass-card card flex-fill p-3 text-center">
             <div class="card-img-wrapper">
-              <img src="assets/ktu.webp" alt="APJ Abdul Kalam TU Logo">
+              <img src="assets/ktu.jpg" alt="APJ Abdul Kalam TU Logo">
             </div>
             <div class="card-body">
               <h5 class="card-title">APJ Abdul Kalam TU</h5>
